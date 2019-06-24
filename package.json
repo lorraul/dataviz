@@ -1,32 +1,33 @@
 {
-    "name": "dataviz",
-    "version": "1.0.0",
-    "description": "",
-    "main": "./dist/main.js",
-    "scripts": {
-        "start": "node server.js",
-        "build": "gulp build",
-        "postinstall": "gulp build"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {},
-    "dependencies": {
-        "babel-core": "^6.26.3",
-        "babel-preset-es2015": "^6.24.1",
-        "babelify": "^8.0.0",
-        "browserify": "^16.2.2",
-        "gulp": "^3.9.1",
-        "gulp-sourcemaps": "^2.6.4",
-        "gulp-typescript": "^4.0.2",
-        "gulp-uglify": "^3.0.0",
-        "gulp-util": "^3.0.8",
-        "tsify": "^4.0.0",
-        "typescript": "^2.8.3",
-        "vinyl-buffer": "^1.0.1",
-        "vinyl-source-stream": "^2.0.0",
-        "watchify": "^3.11.0",
-        "express": "^4.16.3",
-        "path": "^0.12.7"
-    }
+  "name": "dataviz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "gulp build",
+    "postinstall": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^4.0.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "path": "^0.12.7",
+    "tabletop": "^1.5.2",
+    "tsify": "^4.0.0",
+    "typescript": "^2.8.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  }
 }
